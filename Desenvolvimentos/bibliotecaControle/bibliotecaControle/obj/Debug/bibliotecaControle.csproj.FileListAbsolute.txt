@@ -1,0 +1,39 @@
+C:\Users\esqui\Desktop\DGS\bibliotecaControle\bibliotecaControle\bin\Debug\bibliotecaControle.exe.config
+C:\Users\esqui\Desktop\DGS\bibliotecaControle\bibliotecaControle\bin\Debug\bibliotecaControle.exe
+C:\Users\esqui\Desktop\DGS\bibliotecaControle\bibliotecaControle\bin\Debug\bibliotecaControle.pdb
+C:\Users\esqui\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\bibliotecaControle.csprojResolveAssemblyReference.cache
+C:\Users\esqui\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\bibliotecaControle.Properties.Resources.resources
+C:\Users\esqui\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\bibliotecaControle.csproj.GenerateResource.Cache
+C:\Users\esqui\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\bibliotecaControle.exe
+C:\Users\esqui\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\bibliotecaControle.pdb
+C:\Users\esqui\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\bibliotecaControle.DGSSISTEMAS.resources
+C:\Users\esqui\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\bibliotecaControle.Form2.resources
+C:\Users\esqui\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\bibliotecaControle.Form3.resources
+C:\Users\esqui\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\bibliotecaControle.Form4.resources
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\bin\Debug\bibliotecaControle.exe.config
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\bin\Debug\bibliotecaControle.exe
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\bin\Debug\bibliotecaControle.pdb
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\bibliotecaControle.csprojResolveAssemblyReference.cache
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\bibliotecaControle.DGSSISTEMAS.resources
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\bibliotecaControle.Form2.resources
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\bibliotecaControle.Form3.resources
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\bibliotecaControle.Form4.resources
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\bibliotecaControle.Properties.Resources.resources
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\bibliotecaControle.csproj.GenerateResource.Cache
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\bibliotecaControle.exe
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\bibliotecaControle.pdb
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\bin\Debug\CrystalDecisions.Shared.dll
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\bin\Debug\CrystalDecisions.VSDesigner.dll
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\bin\Debug\CrystalDecisions.Web.dll
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\bin\Debug\FlashControlV71.dll
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\bin\Debug\SAPBusinessObjects.WPF.Viewer.dll
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\bibliotecaControle.Form5.resources
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\RdlCompile.cache
+D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\obj\Debug\RdlCompile.compiled

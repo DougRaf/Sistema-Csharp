@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="14.2" version="14.2" Modules="professional" RootPath="." Language="pt_BR" Id="{2E8B2245-1D46-470F-938A-1B5F53AD5516}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;MsiThemeComponent;BackgroundImagesComponent;UpdaterComponent;SerValComponent;DigCertStoreComponent;MsiInstExSeqComponent;DictionaryComponent;MsiAppSearchComponent;MsiAssemblyComponent;MsiClassComponent;MsiOdbcDataSrcComponent;MsiServInstComponent;MsiOrgComponent;MsiExtComponent;CPLAppletComponent;ActSyncAppComponent;PreReqComponent;WebApplicationsComponent;TilesComponent;MsiJavaComponent;MsiDriverPackagesComponent;UserAccountsComponent;ScheduledTasksComponent;SqlConnectionComponent;AutorunComponent;FirewallExceptionComponent;GameUxComponent;MsiDirectEditorComponent;SharePointSlnComponent;SilverlightSlnComponent;MultipleInstancesComponent;SccmComponent;ActSyncAppComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_FINDEXE_TITLE" Value="Selecione o pacote de instalação para [|ProductName]" ValueLocId="AI.Property.FindExeTitle"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="A base dados do instalador contêm a lógica e os dados necessários para instalar o [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPPRODUCTICON" Value="Folder1.exe" Type="8"/>
+    <ROW Property="Manufacturer" Value="DGS SISTEMAS"/>
+    <ROW Property="ProductCode" Value="1046:{0B7A601C-D269-492B-82BB-D05F5539EB56} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Biblioteca Controle"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND;AI_SETUPEXEPATH;SETUPEXEDIR"/>
+    <ROW Property="UpgradeCode" Value="{B38A1660-7935-40E1-AD39-BA21E50C3820}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="AI_ExePath" ComponentId="{D0396104-3B4A-458E-991C-F5C16CF58840}" Directory_="APPDIR" Attributes="4" KeyPath="AI_ExePath"/>
+    <ROW Component="CRVsPackageLib.dll" ComponentId="{27B3D63C-E277-4C95-91BF-ED503E5D878E}" Directory_="APPDIR" Attributes="0" KeyPath="CRVsPackageLib.dll"/>
+    <ROW Component="CrystalDecisions.CrystalReports.Design.d" ComponentId="{5A501BA5-0086-4E68-8157-5E1B3DF78464}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.CrystalReports.Design.dll"/>
+    <ROW Component="CrystalDecisions.CrystalReports.Engine.d" ComponentId="{69678E4E-FE90-48F8-9611-C56D3FEBFE13}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.CrystalReports.Engine.dll"/>
+    <ROW Component="CrystalDecisions.CrystalReports.Template" ComponentId="{11F72A13-490E-48D0-A41A-111101661081}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.CrystalReports.TemplateEngine.dll"/>
+    <ROW Component="CrystalDecisions.Data.AdoDotNetInterop.d" ComponentId="{FC3CAB03-D0B5-419F-B97D-FD4D62D18B83}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.Data.AdoDotNetInterop.dll"/>
+    <ROW Component="CrystalDecisions.Enterprise.Viewing.Repo" ComponentId="{08500268-F934-4AB4-9ADE-CF1CEED2D849}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.Enterprise.Viewing.ReportSource.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.ClientD" ComponentId="{DB397D42-1ECD-4E60-82F4-F94C8BEECEC6}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.ClientDoc.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.CommLay" ComponentId="{8FA043A5-1080-4CE5-8F38-3519F5097C79}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.CommLayer.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.CommonC" ComponentId="{71A6EA9A-4F36-4A65-B37D-4620D2571BDA}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.CommonControls.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.CommonO" ComponentId="{F1F52127-86A2-47A0-A8A8-385B9541AFA9}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.CommonObjectModel.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.Control" ComponentId="{83DA4FA5-EA3F-43B8-84DD-AF84A99CA9D8}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.Controllers.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.CubeDef" ComponentId="{A9A24EB7-2E8C-4AC8-AD24-E6714329082A}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.CubeDefModel.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.DataDef" ComponentId="{B2ED6B20-58F8-4F7C-90BF-AAD06D33A913}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.DataDefModel.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.DataSet" ComponentId="{1C38E950-36C7-4D5D-B4A2-C159C6373C7B}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.DataSetConversion.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.ObjectF" ComponentId="{381734D8-6FB9-4C43-84BE-CF002B14DDF8}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.ObjectFactory.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.Prompti" ComponentId="{705ADA00-53B6-4CBE-8750-CCC5D74EF431}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.Prompting.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.ReportD" ComponentId="{9534E593-9054-4FAB-BC77-6C158483788D}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.ReportDefModel.dll"/>
+    <ROW Component="CrystalDecisions.ReportAppServer.XmlSeri" ComponentId="{2870A764-6AB2-4038-8168-D6253D0DF7B9}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportAppServer.XmlSerialize.dll"/>
+    <ROW Component="CrystalDecisions.ReportSource.dll" ComponentId="{5A170E5C-C3B4-40F3-A17A-798E7E14B59F}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.ReportSource.dll"/>
+    <ROW Component="CrystalDecisions.Shared.dll" ComponentId="{206B0D8D-55A7-4631-BE05-417C563A44A2}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.Shared.dll"/>
+    <ROW Component="CrystalDecisions.VSDesigner.dll" ComponentId="{07C8B10C-D460-4336-B003-7B4AF4FD3815}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.VSDesigner.dll"/>
+    <ROW Component="CrystalDecisions.Web.dll" ComponentId="{4769FC39-F5C6-4E0C-AB5D-0F68346CC720}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.Web.dll"/>
+    <ROW Component="CrystalDecisions.Windows.Forms.dll" ComponentId="{71A384C8-C6B8-4021-9C08-F773C2E0A647}" Directory_="APPDIR" Attributes="0" KeyPath="CrystalDecisions.Windows.Forms.dll"/>
+    <ROW Component="FlashControlV71.dll" ComponentId="{56B08971-538F-4721-8BAA-66D2F8752E71}" Directory_="APPDIR" Attributes="0" KeyPath="FlashControlV71.dll"/>
+    <ROW Component="Microsoft.CSharp.dll" ComponentId="{A474FE02-0C27-4598-81B5-95FA00B7A25D}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.CSharp.dll"/>
+    <ROW Component="Microsoft.ReportViewer.Common.dll" ComponentId="{85D73648-76F0-4AF0-9E61-ACB5EE0B0270}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.ReportViewer.Common.dll"/>
+    <ROW Component="Microsoft.ReportViewer.WinForms.dll" ComponentId="{E104F269-86AB-48A8-AE6C-CE133DFC0214}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.ReportViewer.WinForms.dll"/>
+    <ROW Component="MySql.Data.dll" ComponentId="{E7D5B356-C802-4E0D-BD71-D8418ED0D190}" Directory_="APPDIR" Attributes="0" KeyPath="MySql.Data.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{B18F612D-155F-4CD3-8461-D7E405EC264B}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="SAPBusinessObjects.WPF.Viewer.dll" ComponentId="{3BBE4F77-AAD8-417D-B08C-D7F00589EB58}" Directory_="APPDIR" Attributes="0" KeyPath="SAPBusinessObjects.WPF.Viewer.dll"/>
+    <ROW Component="SAPBusinessObjects.WPF.ViewerShared.dll" ComponentId="{850C9AAC-5C6E-4DC2-8017-2728761C77CB}" Directory_="APPDIR" Attributes="0" KeyPath="SAPBusinessObjects.WPF.ViewerShared.dll"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{DBC01A3C-B353-4BF8-BA8F-410DB7E60583}" Directory_="SHORTCUTDIR" Attributes="0"/>
+    <ROW Component="ShockwaveFlashObjects.dll" ComponentId="{8E48F206-953F-4181-AC05-AFCA9A4B7E01}" Directory_="APPDIR" Attributes="0" KeyPath="ShockwaveFlashObjects.dll"/>
+    <ROW Component="System.Core.dll" ComponentId="{6DCD09FF-CA48-47BD-8606-B751C22F41FF}" Directory_="APPDIR" Attributes="0" KeyPath="System.Core.dll"/>
+    <ROW Component="System.Data.DataSetExtensions.dll" ComponentId="{F3CAA3D1-BF28-43C0-9082-B55B02772A13}" Directory_="APPDIR" Attributes="0" KeyPath="System.Data.DataSetExtensions.dll"/>
+    <ROW Component="System.Data.dll" ComponentId="{9211775D-B1CC-4B39-915A-9451F28E054E}" Directory_="APPDIR" Attributes="0" KeyPath="System.Data.dll"/>
+    <ROW Component="System.Deployment.dll" ComponentId="{856133C1-3490-466F-8DFB-8E7FC72C7422}" Directory_="APPDIR" Attributes="0" KeyPath="System.Deployment.dll"/>
+    <ROW Component="System.Drawing.dll" ComponentId="{39DFB89A-24A0-47BC-B5A3-CE0D523BB825}" Directory_="APPDIR" Attributes="0" KeyPath="System.Drawing.dll"/>
+    <ROW Component="System.Net.Http.dll" ComponentId="{454E8E84-3C45-472B-88E2-02DE57A8AC86}" Directory_="APPDIR" Attributes="0" KeyPath="System.Net.Http.dll"/>
+    <ROW Component="System.Web.Services.dll" ComponentId="{72A2B763-7AA6-4A30-B175-2841DEB7054C}" Directory_="APPDIR" Attributes="0" KeyPath="System.Web.Services.dll"/>
+    <ROW Component="System.Windows.Forms.dll" ComponentId="{9B967067-27FE-48AA-971B-748E5DE3C539}" Directory_="APPDIR" Attributes="0" KeyPath="System.Windows.Forms.dll"/>
+    <ROW Component="System.Xml.Linq.dll" ComponentId="{FE3DBF15-3CBB-45EC-A970-FB65E267EC8D}" Directory_="APPDIR" Attributes="0" KeyPath="System.Xml.Linq.dll"/>
+    <ROW Component="System.Xml.dll" ComponentId="{00235A54-D2DA-44E4-8623-5832577C65C7}" Directory_="APPDIR" Attributes="0" KeyPath="System.Xml.dll"/>
+    <ROW Component="System.dll" ComponentId="{447596A2-619B-4262-B5A8-8D74942F97B8}" Directory_="APPDIR" Attributes="0" KeyPath="System.dll"/>
+    <ROW Component="bibliotecaControle.exe" ComponentId="{2E5A11FD-4E50-4B07-8920-3AB13A1A1F73}" Directory_="APPDIR" Attributes="0" KeyPath="bibliotecaControle.exe"/>
+    <ROW Component="bibliotecaControle.exe.config" ComponentId="{AB93F5F6-0803-4EA0-ADD4-547CEFDA9667}" Directory_="APPDIR" Attributes="0" KeyPath="bibliotecaControle.exe.config" Type="0"/>
+    <ROW Component="mscorlib.dll" ComponentId="{05E35BBC-A333-4E00-9F1F-51F86BF6274F}" Directory_="APPDIR" Attributes="0" KeyPath="mscorlib.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="AI_ExePath CRVsPackageLib.dll CrystalDecisions.CrystalReports.Design.d CrystalDecisions.CrystalReports.Engine.d CrystalDecisions.CrystalReports.Template CrystalDecisions.Data.AdoDotNetInterop.d CrystalDecisions.Enterprise.Viewing.Repo CrystalDecisions.ReportAppServer.ClientD CrystalDecisions.ReportAppServer.CommLay CrystalDecisions.ReportAppServer.CommonC CrystalDecisions.ReportAppServer.CommonO CrystalDecisions.ReportAppServer.Control CrystalDecisions.ReportAppServer.CubeDef CrystalDecisions.ReportAppServer.DataDef CrystalDecisions.ReportAppServer.DataSet CrystalDecisions.ReportAppServer.ObjectF CrystalDecisions.ReportAppServer.Prompti CrystalDecisions.ReportAppServer.ReportD CrystalDecisions.ReportAppServer.XmlSeri CrystalDecisions.ReportSource.dll CrystalDecisions.Shared.dll CrystalDecisions.VSDesigner.dll CrystalDecisions.Web.dll CrystalDecisions.Windows.Forms.dll FlashControlV71.dll Microsoft.CSharp.dll Microsoft.ReportViewer.Common.dll Microsoft.ReportViewer.WinForms.dll MySql.Data.dll ProductInformation SAPBusinessObjects.WPF.Viewer.dll SAPBusinessObjects.WPF.ViewerShared.dll SHORTCUTDIR ShockwaveFlashObjects.dll System.Core.dll System.Data.DataSetExtensions.dll System.Data.dll System.Deployment.dll System.Drawing.dll System.Net.Http.dll System.Web.Services.dll System.Windows.Forms.dll System.Xml.Linq.dll System.Xml.dll System.dll bibliotecaControle.exe bibliotecaControle.exe.config mscorlib.dll"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="CRVsPackageLib.dll" Component_="CRVsPackageLib.dll" FileName="CRVSPA~1.DLL|CRVsPackageLib.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CRVsPackageLib.dll" SelfReg="false" NextFile="bibliotecaControle.exe.config"/>
+    <ROW File="CrystalDecisions.CrystalReports.Design.dll" Component_="CrystalDecisions.CrystalReports.Design.d" FileName="CRYSTA~2.DLL|CrystalDecisions.CrystalReports.Design.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.CrystalReports.Design.dll" SelfReg="false" NextFile="CrystalDecisions.Data.AdoDotNetInterop.dll"/>
+    <ROW File="CrystalDecisions.CrystalReports.Engine.dll" Component_="CrystalDecisions.CrystalReports.Engine.d" FileName="CRYSTA~5.DLL|CrystalDecisions.CrystalReports.Engine.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.CrystalReports.Engine.dll" SelfReg="false" NextFile="CrystalDecisions.ReportAppServer.ClientDoc.dll"/>
+    <ROW File="CrystalDecisions.CrystalReports.TemplateEngine.dll" Component_="CrystalDecisions.CrystalReports.Template" FileName="CRYSTA~4.DLL|CrystalDecisions.CrystalReports.TemplateEngine.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.CrystalReports.TemplateEngine.dll" SelfReg="false" NextFile="SAPBusinessObjects.WPF.ViewerShared.dll"/>
+    <ROW File="CrystalDecisions.Data.AdoDotNetInterop.dll" Component_="CrystalDecisions.Data.AdoDotNetInterop.d" FileName="CRYSTA~3.DLL|CrystalDecisions.Data.AdoDotNetInterop.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.Data.AdoDotNetInterop.dll" SelfReg="false" NextFile="System.Windows.Forms.dll"/>
+    <ROW File="CrystalDecisions.Enterprise.Viewing.ReportSource.dll" Component_="CrystalDecisions.Enterprise.Viewing.Repo" FileName="CRYSTA~1.DLL|CrystalDecisions.Enterprise.Viewing.ReportSource.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.Enterprise.Viewing.ReportSource.dll" SelfReg="false" NextFile="CrystalDecisions.CrystalReports.Design.dll"/>
+    <ROW File="CrystalDecisions.ReportAppServer.ClientDoc.dll" Component_="CrystalDecisions.ReportAppServer.ClientD" FileName="CRYSTA~6.DLL|CrystalDecisions.ReportAppServer.ClientDoc.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.ClientDoc.dll" SelfReg="false" NextFile="CrystalDecisions.ReportAppServer.CommonObjectModel.dll"/>
+    <ROW File="CrystalDecisions.ReportAppServer.CommLayer.dll" Component_="CrystalDecisions.ReportAppServer.CommLay" FileName="CRYSTA~8.DLL|CrystalDecisions.ReportAppServer.CommLayer.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.CommLayer.dll" SelfReg="false" NextFile="System.Data.DataSetExtensions.dll"/>
+    <ROW File="CrystalDecisions.ReportAppServer.CommonControls.dll" Component_="CrystalDecisions.ReportAppServer.CommonC" FileName="CRYSTA~9.DLL|CrystalDecisions.ReportAppServer.CommonControls.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.CommonControls.dll" SelfReg="false" NextFile="System.Web.Services.dll"/>
+    <ROW File="CrystalDecisions.ReportAppServer.CommonObjectModel.dll" Component_="CrystalDecisions.ReportAppServer.CommonO" FileName="CRYSTA~7.DLL|CrystalDecisions.ReportAppServer.CommonObjectModel.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.CommonObjectModel.dll" SelfReg="false" NextFile="CrystalDecisions.ReportAppServer.CommLayer.dll"/>
+    <ROW File="CrystalDecisions.ReportAppServer.Controllers.dll" Component_="CrystalDecisions.ReportAppServer.Control" FileName="CRYST~10.DLL|CrystalDecisions.ReportAppServer.Controllers.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.Controllers.dll" SelfReg="false" NextFile="CrystalDecisions.ReportAppServer.CubeDefModel.dll"/>
+    <ROW File="CrystalDecisions.ReportAppServer.CubeDefModel.dll" Component_="CrystalDecisions.ReportAppServer.CubeDef" FileName="CRYST~11.DLL|CrystalDecisions.ReportAppServer.CubeDefModel.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.CubeDefModel.dll" SelfReg="false" NextFile="CrystalDecisions.ReportAppServer.DataDefModel.dll"/>
+    <ROW File="CrystalDecisions.ReportAppServer.DataDefModel.dll" Component_="CrystalDecisions.ReportAppServer.DataDef" FileName="CRYST~12.DLL|CrystalDecisions.ReportAppServer.DataDefModel.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.DataDefModel.dll" SelfReg="false" NextFile="CrystalDecisions.ReportAppServer.DataSetConversion.dll"/>
+    <ROW File="CrystalDecisions.ReportAppServer.DataSetConversion.dll" Component_="CrystalDecisions.ReportAppServer.DataSet" FileName="CRYST~13.DLL|CrystalDecisions.ReportAppServer.DataSetConversion.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.DataSetConversion.dll" SelfReg="false" NextFile="CrystalDecisions.ReportAppServer.ObjectFactory.dll"/>
+    <ROW File="CrystalDecisions.ReportAppServer.ObjectFactory.dll" Component_="CrystalDecisions.ReportAppServer.ObjectF" FileName="CRYST~14.DLL|CrystalDecisions.ReportAppServer.ObjectFactory.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.ObjectFactory.dll" SelfReg="false" NextFile="ShockwaveFlashObjects.dll"/>
+    <ROW File="CrystalDecisions.ReportAppServer.Prompting.dll" Component_="CrystalDecisions.ReportAppServer.Prompti" FileName="CRYST~15.DLL|CrystalDecisions.ReportAppServer.Prompting.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.Prompting.dll" SelfReg="false" NextFile="System.Xml.dll"/>
+    <ROW File="CrystalDecisions.ReportAppServer.ReportDefModel.dll" Component_="CrystalDecisions.ReportAppServer.ReportD" FileName="CRYST~16.DLL|CrystalDecisions.ReportAppServer.ReportDefModel.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.ReportDefModel.dll" SelfReg="false" NextFile="CrystalDecisions.ReportAppServer.XmlSerialize.dll"/>
+    <ROW File="CrystalDecisions.ReportAppServer.XmlSerialize.dll" Component_="CrystalDecisions.ReportAppServer.XmlSeri" FileName="CRYST~17.DLL|CrystalDecisions.ReportAppServer.XmlSerialize.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportAppServer.XmlSerialize.dll" SelfReg="false" NextFile="CrystalDecisions.ReportSource.dll"/>
+    <ROW File="CrystalDecisions.ReportSource.dll" Component_="CrystalDecisions.ReportSource.dll" FileName="CRYST~18.DLL|CrystalDecisions.ReportSource.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.ReportSource.dll" SelfReg="false" NextFile="CrystalDecisions.Shared.dll"/>
+    <ROW File="CrystalDecisions.Shared.dll" Component_="CrystalDecisions.Shared.dll" FileName="CRYST~19.DLL|CrystalDecisions.Shared.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.Shared.dll" SelfReg="false" NextFile="CrystalDecisions.VSDesigner.dll"/>
+    <ROW File="CrystalDecisions.VSDesigner.dll" Component_="CrystalDecisions.VSDesigner.dll" FileName="CRYST~20.DLL|CrystalDecisions.VSDesigner.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.VSDesigner.dll" SelfReg="false" NextFile="FlashControlV71.dll"/>
+    <ROW File="CrystalDecisions.Web.dll" Component_="CrystalDecisions.Web.dll" FileName="CRYST~21.DLL|CrystalDecisions.Web.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.Web.dll" SelfReg="false" NextFile="CrystalDecisions.Windows.Forms.dll"/>
+    <ROW File="CrystalDecisions.Windows.Forms.dll" Component_="CrystalDecisions.Windows.Forms.dll" FileName="CRYST~22.DLL|CrystalDecisions.Windows.Forms.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\CrystalDecisions.Windows.Forms.dll" SelfReg="false" NextFile="Microsoft.CSharp.dll"/>
+    <ROW File="FlashControlV71.dll" Component_="FlashControlV71.dll" FileName="FLASHC~1.DLL|FlashControlV71.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\FlashControlV71.dll" SelfReg="false" NextFile="CrystalDecisions.Web.dll"/>
+    <ROW File="Microsoft.CSharp.dll" Component_="Microsoft.CSharp.dll" FileName="MICROS~1.DLL|Microsoft.CSharp.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.CSharp.dll" SelfReg="false" NextFile="Microsoft.ReportViewer.Common.dll"/>
+    <ROW File="Microsoft.ReportViewer.Common.dll" Component_="Microsoft.ReportViewer.Common.dll" FileName="MICROS~2.DLL|Microsoft.ReportViewer.Common.dll" Attributes="0" SourcePath="..\..\..\..\..\..\WINDOWS\assembly\GAC_MSIL\Microsoft.ReportViewer.Common\11.0.0.0__89845dcd8080cc91\Microsoft.ReportViewer.Common.dll" SelfReg="false" NextFile="Microsoft.ReportViewer.WinForms.dll"/>
+    <ROW File="Microsoft.ReportViewer.WinForms.dll" Component_="Microsoft.ReportViewer.WinForms.dll" FileName="MICROS~3.DLL|Microsoft.ReportViewer.WinForms.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 11.0\ReportViewer\Microsoft.ReportViewer.WinForms.dll" SelfReg="false" NextFile="MySql.Data.dll"/>
+    <ROW File="MySql.Data.dll" Component_="MySql.Data.dll" FileName="MYSQLD~1.DLL|MySql.Data.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll" SelfReg="false" NextFile="System.Core.dll"/>
+    <ROW File="SAPBusinessObjects.WPF.Viewer.dll" Component_="SAPBusinessObjects.WPF.Viewer.dll" FileName="SAPBUS~1.DLL|SAPBusinessObjects.WPF.Viewer.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\SAPBusinessObjects.WPF.Viewer.dll" SelfReg="false" NextFile="CRVsPackageLib.dll"/>
+    <ROW File="SAPBusinessObjects.WPF.ViewerShared.dll" Component_="SAPBusinessObjects.WPF.ViewerShared.dll" FileName="SAPBUS~2.DLL|SAPBusinessObjects.WPF.ViewerShared.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\SAPBusinessObjects.WPF.ViewerShared.dll" SelfReg="false" NextFile="mscorlib.dll"/>
+    <ROW File="ShockwaveFlashObjects.dll" Component_="ShockwaveFlashObjects.dll" FileName="SHOCKW~1.DLL|ShockwaveFlashObjects.dll" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\packages\CrystalReports.13.0.5.891\lib\net40\ShockwaveFlashObjects.dll" SelfReg="false" NextFile="CrystalDecisions.ReportAppServer.Prompting.dll"/>
+    <ROW File="System.Core.dll" Component_="System.Core.dll" FileName="SYSTEM~8.DLL|System.Core.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Core.dll" SelfReg="false" NextFile="System.Deployment.dll"/>
+    <ROW File="System.Data.DataSetExtensions.dll" Component_="System.Data.DataSetExtensions.dll" FileName="SYSTEM~4.DLL|System.Data.DataSetExtensions.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.DataSetExtensions.dll" SelfReg="false" NextFile="CrystalDecisions.ReportAppServer.CommonControls.dll"/>
+    <ROW File="System.Data.dll" Component_="System.Data.dll" FileName="SYSTEM~6.DLL|System.Data.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" SelfReg="false" NextFile="CrystalDecisions.ReportAppServer.Controllers.dll"/>
+    <ROW File="System.Deployment.dll" Component_="System.Deployment.dll" FileName="SYSTEM~9.DLL|System.Deployment.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Deployment.dll" SelfReg="false" NextFile="System.dll"/>
+    <ROW File="System.Drawing.dll" Component_="System.Drawing.dll" FileName="SYSTEM~2.DLL|System.Drawing.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" SelfReg="false" NextFile="CrystalDecisions.Enterprise.Viewing.ReportSource.dll"/>
+    <ROW File="System.Net.Http.dll" Component_="System.Net.Http.dll" FileName="SYSTE~10.DLL|System.Net.Http.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Net.Http.dll" SelfReg="false"/>
+    <ROW File="System.Web.Services.dll" Component_="System.Web.Services.dll" FileName="SYSTEM~5.DLL|System.Web.Services.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Web.Services.dll" SelfReg="false" NextFile="System.Data.dll"/>
+    <ROW File="System.Windows.Forms.dll" Component_="System.Windows.Forms.dll" FileName="SYSTEM~3.DLL|System.Windows.Forms.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" SelfReg="false" NextFile="CrystalDecisions.CrystalReports.TemplateEngine.dll"/>
+    <ROW File="System.Xml.Linq.dll" Component_="System.Xml.Linq.dll" FileName="SYSTEM~1.DLL|System.Xml.Linq.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.Linq.dll" SelfReg="false" NextFile="SAPBusinessObjects.WPF.Viewer.dll"/>
+    <ROW File="System.Xml.dll" Component_="System.Xml.dll" FileName="SYSTEM~7.DLL|System.Xml.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" SelfReg="false" NextFile="CrystalDecisions.ReportAppServer.ReportDefModel.dll"/>
+    <ROW File="System.dll" Component_="System.dll" FileName="System.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" SelfReg="false" NextFile="System.Net.Http.dll"/>
+    <ROW File="bibliotecaControle.exe" Component_="bibliotecaControle.exe" FileName="BIBLIO~1.EXE|bibliotecaControle.exe" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\bin\Debug\bibliotecaControle.exe" SelfReg="false" NextFile="System.Xml.Linq.dll" DigSign="true"/>
+    <ROW File="bibliotecaControle.exe.config" Component_="bibliotecaControle.exe.config" FileName="BIBLIO~1.CON|bibliotecaControle.exe.config" Attributes="0" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\bin\Debug\bibliotecaControle.exe.config" SelfReg="false" NextFile="System.Drawing.dll"/>
+    <ROW File="mscorlib.dll" Component_="mscorlib.dll" FileName="mscorlib.dll" Attributes="0" SourcePath="..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" SelfReg="false" NextFile="CrystalDecisions.CrystalReports.Engine.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="Setup Files" Languages="pt_BR" InstallationType="4" CabsLocation="1" PackageType="1" FilesInsideExe="true" ExeIconPath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\favicon(1).ico" ExtractionFolder="[AppDataFolder][|Manufacturer]\[|ProductName] [|ProductVersion]\install" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_pt_BR.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="SetupTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SetupTypeDlg.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiActionTextComponent">
+    <ROW Action="AI_DeleteLzma" Description="Eliminando arquivos extraídos" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_DeleteRLzma" Description="Eliminando arquivos extraídos" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractFiles" Description="Extraindo arquivos" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractLzma" Description="Extraindo arquivos" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAppSearchComponent">
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_CU" Builds="DefaultBuild"/>
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_LM" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="Prereq.dll" SourcePath="&lt;AI_CUSTACTS&gt;Prereq.dll"/>
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+    <ROW Name="lzmaextractor.dll" SourcePath="&lt;AI_CUSTACTS&gt;lzmaextractor.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="SetupTypeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="204"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="SetupTypeDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="205"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalButton" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="102"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CompleteButton" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL AND InstallMode=InstallModeComplete" Ordering="201"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="SetupTypeDlg" Condition="AI_INSTALL AND InstallMode=InstallModeComplete" Ordering="203"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL AND InstallMode=InstallModeCustom" Ordering="102"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_INSTALL AND InstallMode=InstallModeCustom" Ordering="202"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CustomButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_INSTALL AND InstallMode=InstallModeCustom" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="SetupTypeDlg" Condition="AI_INSTALL AND InstallMode=InstallModeCustom" Ordering="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH_ORIGINAL" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DATA_SETTER" Type="51" Source="AI_ExtractFiles" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DeleteCadLzma" Type="51" Source="AI_DeleteLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteLzma" Type="1025" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DeleteRCadLzma" Type="51" Source="AI_DeleteRLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteRLzma" Type="1281" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_EstimateExtractFiles" Type="1" Source="Prereq.dll" Target="EstimateExtractFiles"/>
+    <ROW Action="AI_ExtractCadLzma" Type="51" Source="AI_ExtractLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_ExtractFiles" Type="1025" Source="Prereq.dll" Target="ExtractSourceFiles" AdditionalSeq="AI_DATA_SETTER"/>
+    <ROW Action="AI_ExtractLzma" Type="1025" Source="lzmaextractor.dll" Target="ExtractLZMAFiles"/>
+    <ROW Action="AI_FindExeLzma" Type="1" Source="lzmaextractor.dll" Target="FindEXE"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH" Target="[AI_SETUPEXEPATH_ORIGINAL]"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="Folder1.exe" SourcePath="D:\Backup 09-07-2017\Desktop\DGS\bibliotecaControle\bibliotecaControle\Folder1.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99" Builds="DefaultBuild"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="101" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="199" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="198" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="197" Builds="DefaultBuild"/>
+    <ROW Action="AI_FindExeLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="196" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="1549" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="1548" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="6599" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractFiles" Sequence="3998" Builds="DefaultBuild"/>
+    <ROW Action="AI_DATA_SETTER" Sequence="3997"/>
+    <ROW Action="AI_EstimateExtractFiles" Sequence="3999" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="101"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] não pode ser instalado em [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] não pode ser instalado em [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT64 OR ((VersionNT &lt;&gt; 501) OR (ServicePackLevel = 3))) AND ((VersionNT &lt;&gt; 502) OR (ServicePackLevel = 2))" Description="[ProductName] não pode ser instalado em [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="SETUPEXEDIR OR (REMOVE=&quot;ALL&quot;)" Description="This package can only be run from a bootstrapper." DescriptionLocId="AI.LaunchCondition.RequireBootstrapper" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] não pode ser instalado em [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegLocatorComponent">
+    <ROW Signature_="AI_EXE_PATH_CU" Root="1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+    <ROW Signature_="AI_EXE_PATH_LM" Root="2" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="AI_ExePath" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Value="[AI_SETUPEXEPATH]" Component_="AI_ExePath"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="bibliotecaControle.exe" Directory_="SHORTCUTDIR" Name="BIBLIO~1.EXE|bibliotecaControle.exe" Component_="bibliotecaControle.exe" Target="[#bibliotecaControle.exe]" Description="bibliotecaControle.exe" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="bibliotecaControle.exe_1" Directory_="DesktopFolder" Name="BIBLIO~1.EXE|bibliotecaControle.exe" Component_="bibliotecaControle.exe" Target="[#bibliotecaControle.exe]" Description="bibliotecaControle.exe" Hotkey="0" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>
